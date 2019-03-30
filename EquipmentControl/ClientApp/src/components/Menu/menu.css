@@ -1,0 +1,84 @@
+.menu {
+    width:16vw;
+    min-width: 250px;
+    background-size: cover;
+    background: linear-gradient(14deg, #56CCF2, #2F80ED);
+    display: flex;
+    color: #FFFFFF;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.menu p {
+    cursor: pointer;
+}
+
+.menu p:hover {
+    color:red;
+}
+
+.underline-paragraph {
+    border-bottom:2px solid white;
+    padding-bottom:1px;
+}
+
+.menu p {
+    margin-left: 1.8vw;
+}
+
+.menu .add-img {
+    margin-left: 1.8vw;
+    width: 20px;
+    height: 20px;
+}
+
+.menu-h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.menu-h1 p {
+    font-size: 20px;
+    font-family: "SF UI Text";
+    margin-top:3.3vh;
+}
+
+.menu-h1 img {
+    width: 13px;
+    height: 7px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.circle {
+    width: 12px!important;
+    height: 12px!important;
+    border-radius: 50%;
+    margin-right: 20px;
+    background: linear-gradient(14deg, green, orange);
+    cursor: pointer;
+}
+
+.circle-red {
+    width: 12px!important;
+    height: 12px!important;
+    border-radius: 50%;
+    margin-right: 20px;
+    background: linear-gradient(14deg, red, orange);
+    cursor: pointer;
+}
+
+li p {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu ul {
+    padding-inline-start: 20px;
+}
+
+li {
+    list-style-type: none;
+}

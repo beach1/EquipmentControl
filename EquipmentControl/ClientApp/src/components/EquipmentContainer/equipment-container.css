@@ -1,0 +1,22 @@
+.equipment-container {
+    margin-top: 5vh;
+    display: flex;
+    width:50%;
+    flex-direction: column;
+    justify-content: flex-start;    
+}
+
+.equipment-container table td {
+    padding: 10px 0;
+}
+
+.equipment-container table th {
+    text-align: start;
+}
+.equipment-container table th:first-child {
+    min-width: 300px;
+}
+
+.equipment-container tr > td:first-child {
+    width:300px;
+}

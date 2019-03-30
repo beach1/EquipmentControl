@@ -1,0 +1,14 @@
+.unit-equipment {
+    display: flex;
+    flex-direction: row;
+}
+
+.unit-equipment > p {
+    margin-left: 20px;
+}
+
+td img {
+    width:20px;
+    height: 20px;
+    cursor: pointer;
+}

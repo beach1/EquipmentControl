@@ -1,0 +1,41 @@
+button {
+    margin-bottom: 5vh;
+    margin-top:5vh;
+    cursor: pointer;
+    width: 257px;
+    border-radius: 26px;
+    background: linear-gradient(238deg, #2F80ED, #56CCF2);
+    height: 40px;
+    color:#FFF;
+    border: none;
+    font-size: 18px;
+}
+button:focus {
+    outline: none; 
+}
+.add-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.add-modal p {
+    margin-top:10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.add-modal input {
+    border:none;
+    border-bottom: 1px solid #B4B4B4;
+    width:427px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 35px;
+    margin-bottom: 7vh;
+    font-family: "SF UI Text";
+}
+
+.add-modal button {
+    margin-top: 5vh;
+}
